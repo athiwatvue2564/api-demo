@@ -38,7 +38,7 @@ try {
     })
   })
 } catch (e) {
-  console.log('error')
+  console.log('NOT SUCCEES')
   console.log(e.message)
   res.send({
     status: 0,
